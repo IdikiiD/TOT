@@ -221,13 +221,10 @@ body {
   }
   .footer{
 
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: -7px;
   }
 
-  .content{
-    
-  }
 }
 
 @media (max-width: 767px) {
@@ -239,9 +236,6 @@ body {
     height: auto;
     padding-bottom: 10px;
   }
-.footer{
-  position: static;
-}
 
 .content{
   margin-bottom: 50px;
@@ -250,7 +244,11 @@ body {
   .header_logo {
     display: none;
   }
+  .footer{
 
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media (max-width: 565px) {
@@ -292,13 +290,15 @@ body {
   .after {
     display: none;
   }
-  .footer{
-    position: static;
-  }
   .page {
     min-height: 100vh;
     height: auto;
     padding-bottom: 10px;
+  }
+  .footer{
+
+    position: absolute;
+    bottom: 0;
   }
 }
 
